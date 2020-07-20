@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<title>Hruthika.M</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://lh3.googleusercontent.com/Th69tHuJ90VIKJrtt_602zwgCNxPC34RR6yBfEj74_93H9ZyesGud6pQT29LFgFSA0lZEyX2ySE6-J1adcoAxX1abECLwU2z6CQKgqBanvBdDEwKv63sTgwyPUdkm43QUvnxhUT620qvZL0EYxd3Wk79vHp5Zjw3xrbmXQTS9Bf87QYqXNxLBtB3-ZCgkVOKwvhiZGxTXZ5_jRLH6uuS8JNuCD5av7Jl8j_tNViwRlcio2hIvNIb-z2BViMY9KxGE22aIr2cdsQkPxWzVT9GkUkVcF5OKBAJbMiIo2cibSOvdIEPpnVwN73vLZ-UpybAznQ7H4zQJLeuJKe0tGkiHiVtykGpOS84ooEcBUHEccz37faC6KlfxNBz6cvMzz1gr9bqEDXzJbOMNsCJijnQvS0uC5hfSdCIDNORWL-GVoKIXp1hI_pUsznT7e0ug1cG1-ERrWf6jOkekyp7Uwpz4CP5lbbrGMotYlZ5OOKdUvNPAJpvWUR4tA2QnQVI9-4KGFV_jVIfXse0f7eepRWWxRyEKqf8sCpdYha8QcwQkeg65PA1Zo7xoeEaCowz6lzMiD6WV1hyxxoLna_75XH7TJK1B7grU0yECCEeTe6nLsWCNbMl7CF29EhLAi6_rTbqFUxzReOqtg7_vzB-GOQsLy8LlH_hBif8xQZMhUX7uh0jwElwUCB6C5t2MCKF=w301-h625-no?authuser=0" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>CERTIFICATES</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm </span> Hruthika M</h1>
+    <p></p>
+    <img src="https://lh3.googleusercontent.com/zdgPsy2m-TW0ZP1KYr2e1tXL4a_Kj9JieLTEPiyQdPZWS0XrSagzQ5b2eSm8DoMFHJ_PIrm8E7t__F7FKCwOIcgDqW6gh8kuu5dbsFU7QLFL8o1r3QPEHVSyex_hrhxne5u1P3ErH8D1ph9bYF-mV6G3iwy3T8RIDXjtqEOsf9uxDdCDcdybq6bb31HWVCnUSxfMrBoaJSnB0c1iea6wgoEboZN0-SoPvgzYp7phq7YccPWbxrnkgd3HxEn2VhzVLjjSfu6v4UVVIR16Xsf81dQ2x-Bwm33eJVmOMwGhwxTLaADjfBOYOHdcLfmky8JziwbAqjHECHkznJv8t-m-IBzQMvZyoQCxG01yeSasVutbhlXLCg4oAWBW1Mtg9xw0B5vyJilSg24kDZlr4n3WA2T_W9BE56orj2DrNfAT6kmRLGbFf6SXVz9iA8Jsggq3m6CHTxZ0_PWuxuh19sOxoVe_8kDLFB6-z-ujGE-i4ZA0DNUXNfM79zCYDs2kRTLTsGA22_EbsxsGHzeZR5DQGUbYJ_4lkNxWxMzKORCfX-wNFcYNce14dBI-ho9_33iBu7ikKaLtOchpMU054s4nlgWgtoWEudmNGKDqVzmlRtRtuVR4XZo0pNi8EkLf94nAvCzQNJr9k4ONwP35orlIfUDaKjo7nVKjSA1oXsrfW9beRLrlcGetoQhC9MR2=w251-h625-no?authuser=0" style="width:70%">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Hruthika M</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am HRUTHIKA M .I have completed my first year Computer Science and Engineering with specializtion Artificail Intelligence and Machine Learning with 9.2GPA in SRM Institute of Science and Technology,Vadapalni campus.I started seeing this world from 8th november 2001. i completed my schooling in Chittoor,Andhra Pradesh.i scored 7.8 cgpa in 10th grade in B.V.Reddy.Sr.Sec.School nd in 12th grade i achieved 94% in Sri Chaithanya Junior College.i believed in my self nad started my journey and trying to make my dreams true in my life."Never think you are nothing...Never think you are everything...But always think you are something and you can achieve something..."
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Web Designing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Cyber Security</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div><br>
+
+    <p class="w3-wide">Blog Writing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+    </div><br>
+
+    
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">MY HOBBIES</h3>  
+    <img src="https://lh3.googleusercontent.com/1UcotVWP0H2CLgYTzsBTXBJvZ7x9askDflbNT0AF9bD-4WlLSw28JHYcVif27kwUKZre72MLDV1w39RU7NubnRwhqIwbEO0mMRTY7n7u7PgUfiIC0MaTul-MBsiyJXHI_lgiBKOGGHS_mpEpQnfYGvLBA8PURbw4lg-2eFYHFaSxcHoCY40fuYSfsmIKWdybXKkEInciNOcQT91zBIlHbNVxIZ_qRKjQjSJT6CLx2iO_VsddjH-HIBSKvc4LnJ_DZ-xYpYSmM2D_54kFm4pwvXz8WSuRqzQoWFxCzLxxoF27SxQlfO_44KtIur2HqsWVz7Qc_mJpTbkAOUp-u_L0w_hZJ6M2VjciiD1-4tuo474Seil-FOIDEPJc2tOC4BsDiPCGDi9ECVLB3IOt082HqzCM8X7J_DmYh3t5idEFQwWrFNttJDpMQEup1o4STrIBMBIwCaSjfMIyC98hsAfTFX6MuVoq4YeaUqI2eJa3uGTOQcw2NqhVmNj-0BC9_XG7XdG5MrrG8P-8aVD2G_pmMb5JKHAGhvBPdCHM4kZQ1Tmn-nfh0kOX1otu44HZ09Xjf8-kF_IgA26juZHAPAm6ah_97FauJdZQm_O6nH8NVzC0vjFCOD2G3aqa6m9SMrJPjS7R1Lht57od6phpoEGcL4jXMVeJz6feAxIUX6fVqPfOnbuK7Eb7nl92UiGt=w650-h400-no?authuser=0" alt="Cooking" class="w3-left w3-circle w3-margin-right" style="width:200px">
+    <p><span class="w3-large w3-margin-right">Cooking</span></p>
+    <p>Eating is a necessity but cooking is an art</p><br>
+    
+    <img src="https://lh3.googleusercontent.com/OZE0dDgqRYJYMNXkhTVlUk14iB6WHkvaYwciSXv1GltYQVqck5P5haVLobsXkoTb_5DBOuWO4KM9bPMK8R8Xavyytcgn3UhxUc9l1gD7hpECoEobROoAuC7vdLWeu6Q9jjKhjYGMnjxx-6ynE7eupzGl3dfnNHIKHXwETWltMWTP10kb2SG86U9uqWG1H_VS4PdWFUfhvBZRpb9P0e1u2IYjSQZKi-ouwMklq3i4KGE6WNBSykk9p8z-58ijaKzE72DjFtAqQ2-4kDIBIq6eDzj34j3Wem-s8KE_HcRh9RgP8qGnaZCqIX4kbkQpbKDD1rzirLN-bFI3-9WZkovkJugViUh75DdElJ1z4sEMx2ED76cSonlQV0HETFtxzDUpBPGTU7qwFYw4g3jz9UVFXr7eOf5fTTwweENoXCjB0OETEaRu81i5duSSGM8t43LnB26kJDPGmo-W7NlnseLBj8nNqYHvp9s_iQyxLUiVnNHbgTYG8X791Rg_tBBGwevjtfYttek4G7GkDUa6ZiJAA1z2PU8Nx6Js8tuw5Wab1IfMZutAYuyvWlJLWmHXaKroaRz6A1b3FuVBWy4uxnbXSBh17VJLv0X1e1lrWUzMOpBRnuwFrqVWRhRcAahyhS6lg5bRQTZH6qLbd1VOgVkCI9MEBEtq6u6hG21zfP7bxnjf4Zyto4iYhcOmHAMx=w1191-h625-no?authuser=0" alt="Reading Books" class="w3-left w3-circle w3-margin-right" style="width:200px"><p><span class="w3-large w3-margin-right">Reading Books</span> </p>
+    <p>The more that you read,the more things you will know.The more that you learn, the more palces you will go!</p><br>
+
+    <img src="https://lh3.googleusercontent.com/D1urLoaZDLH10Vt2IR04ug_McPrBqVeSm0zUQocuvi_WRbtgFaOPj-mPmkSfk0evksHdNWX43F9bp6gmCn1bII9sQT0fO5v6sHISs0fsVgLOSvk5AFW5PwX2Gewdw8SNYrHYTPAoR4rHNk_Z5TGpwM_dWYlc4UDINNhZFvySIGFS0BFRvNGRoYHpRkDfo3ckkIhYDe4BmkG04cJ4YvRUh4nB_GPCK8BVvgiSgmk4W7gP1O8O1x90HgSbZNux7XkHF7SWvO5pxBkhlYGQRSZEeCpYPiVl-qy_SSiauxvfsGUxtiEHGWMd92IInJL6FzWRE2_svH9WUcvtMgqmIRh7pTgoKjoMXrCYzQOmBp8-WeYZqTxJGgOlC_bXLlZW_jKgKA41f_cOtZvvzLcR7NtugtRIDcLSw6HEo6UOPMD0JXJXh_RsjV5KgOpQI6_fD7y3VTn3LB3S_ch7G9EJkMPyDPOiS-v1c9_nz7TMEaYGVS24wpzQtY2CVvoZitX5yWbuidp0HaSdlpoY6TpiEODkWH87AE9KI69MvBwOSaMKDEMY3H2cfAaCZbmbOAozQv3nHd-RSFDHgGUW7QLZoR74yn06TRs0dzmAAuFv0pHap_Bbe5XmzI7Cv4C9ifiYlUWDpOC8CkUiXx72680xa3EpNC9bFXQ4XWnsiisMTE1CiLdNp8nw_uW3k_3zhyH-=w294-h195-no?authuser=0" alt="Throwball" class="w3-left w3-circle w3-margin-right" style ="width:200px">
+    <p><span class="w3-large w3-margin-right">Throw ball</span></p>
+    <p>Life will become a Throw ball game to one, who put your weakness in their hands.</p><br>
+
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="certificates">
+    <h2 class="w3-text-light-grey">MY CERTIFICATES</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://lh3.googleusercontent.com/Qs8lKQw6Bix3njV9rHoc8lBdigY4cvlidTjVHVzD06UUWEcnQ2T5hQiKcrv1YTs-Q8u-hb_FJw2aVnCSNltd9TZwARuBV8hI2lLsLu5-Toz8JytJLPo4Nkg-QdHl7CQ53KeBZj2tAYLDuyM0cYiz2lxDN5wOXXKo4NL0yNUdOJBE8EStNDU-M983DC0zG1chhHZWxAfG75p51OXi76PRrIThy8x2BzQ2NZPrNIGJsoyBNfIIskW62i1haTuNFZfkitFMzngp5BF8q2Oyywrn9FfkeZFv477lvLakdy-smYDyXbZiC-jI3S758nEsZLLwONDh5DCdZNd5p9nfqVHIsvjeSIL5-dZxWPh8EavEhVYjnRfbhZwFKV3I358NR7XNLaL2jqmhAVY9edRZnYX1HRBEl4Q9bikqqhbMJV5trwGN8mugQ_OrOrSWxoDPNhI_Y5kD5uGdEYTQ-aXtUNKG858UzhLRo15A1NoBcmIVqNwTLXzxKpcY3kuKgvF6YQPeVJnwjeri4Idv-dvLRoQeDf55TTW5osGG3JfK0fk4SLDxPw3LWdgxUkA3wsN9G75YHFfGkLTKhtkd4JQDNlNpkh5773yqnnKgy1V4H0cbHkaHJ0YCRdFq5C8108GF-1iRHdz8W0ZN2GAV7ErYiME-lA8Lf4LWPkUCt1KrI01amYLq4aYbCC2SGiUO9GMt=w260-h201-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/W3w5tXYI4IDv6xJcelihf-j2jC-VRu2p1vkajbVOmDXAJoKc3cSF3-DDvTb8Xj8rTWWmOkGaPVCiUpEKGECvM7NffCz9ASl3en9Y3gaKM-0_BNZoqG1ygaeqm7tjSGVQjyM2FWVKD0lp5LIb5OnXiF8tgFMJZczKBzL05WMixmlvajMvZLVYMfN9LyVO1MD5z2_LNL4ys2pF8XutnIN7h4Z6dOdPZ5DCvV9SVYFZbDzAf5ZGcs3HZeluIv-UZyX7NqE1MchjLj6o8VagubLWJtxPRmgW_Bl834PyoTXorwhpb4rGh_5W2I-BN4SSX5WmRUzAKQdkWJLhReF6I9grztYsrwQNcSHOrUO75cjTBrQV-nRhkQlAbxvnWUfn3UWiDSIRh4LweWdsgBor3yap_6ogY5q8uMEqKNWiNrhh05MoXFM4Qn77RfC6S7qNdpV_p7F6K6VV478Xzsn4iuEK9FIzQbdRyZUusVLuR_0r16Dli-ElvQbJMxcNTuW5Jrp2SJcDELO0wtZ3J_aY1I819K5mEVixvRse097paeay-Wmp3Ldau3xB1v_ohMRJupSkCHRb-ubKoV2qg2mQFaEll7Jq_ljTApK0fQ_iyaJPvOjvwrG5CrH2XHjwOHQ7_Ta8PzJrdrM6pf5EcVJ-erCRTZkHzOjEeYQ9IJsO8joOkhxJThNs_D2CwHjOJtQL=w810-h625-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/Fv003IakklKgNiL0yTUkFp0L5ZLWN1qON0r3J4UVFim9D6dW6sclG1BYa_Fz3OpB4v5nJphpwC6xKsocfM04WH_RCQZuNlSrkVOuOJYNXx84Haxu8YmwsCSezpOgKmuSlvzzJfyxlX2UEUZl3xxsQaIOFJ2a1ZIXAtklI3JgwAV_v3yI8C-Wr3sbY2eM9upYQ88TX8F1hNefF-inXb_VviMlfn2NEMEm0c0rTC9gaeFE4Sa1YdVrkLRbwEgsRX2uxhEnwc_8SzuBwOrwZJ0-uHbmh7-RFN8Q5xFKjKxDu2M5IHKhLXz_WdCj-ZZol9DfVHCG4zzTVpRIP_XN3TgG2i3MX2oGKBeT2mFBMiFmYYubefBDudvz312kuYfUchF-6t7el93lEX2uo_Zzkzib4Ikru6q1hi173x7e4C1cv_M4p1wAh2F4BmQgadNqwAB_KMSTN1wNskIa7qOSa5YpJGvZY1tEpOuxSQ3Zp2BRSuM9igppqd4hl-UWeOU2YK7ytSla1_QaGOMSWf_SwKppwVJAcujb5wtZVAeK151F4Ve2MsHZF2Gc43VFop5Q_fCs25H5YAI2fMsBj0bnIt7qwXBDtxuGK3TC7kRDjjS7Or0JDccDhZvx92c_rVdhCm8cVxeamXh5Boh80ZfY7AEqE_YE-Bc6SHtyd6rkDgrtabRJKW2y6hBKi9W7LxQW=w809-h625-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/rqkG8N3JJA3IbjvtEoSyqoKa_i7uV86F2U-9VSik5FWqohtYqW9XzB21ZIhnpZ8qC83DfQGgT8E7sqZ6mWipeiwic01vQ3GNShuDABY4LX3l8DDZtDwTHuq2eiVctDXnz2013OO2lPDC613eHSs5QYSwYNC6tTwL7LpyOKEa8otFvN6-Q5auHRPtQbjJe1h4LLloHz2QK1PclZ651bYPXiDb9OOEe7dNjCNMI871Q56UZdsFTxl607Ro_rE8iXSHP0DMaL4jA0pMioZtFrTUIl7XmBxCx9-2g72UPcrQePHllOK61xSkNMvgIDY2nPJUeBp1RrdmoidVNDhIR68Z0kfJ3LYUmfybRno0HOxrNuCZQTd5qsU5F_8Zi_-v6lxBAzUGXHx4QvuvDYl3YspBykv7BSRAkZzqbQveAhNl7l-8hH5GVqornnWZZTLXS8qE-362OrpPNl-b6A9LEvCYCLzy9ay9s5mpoLpywPlCo-Qo-9W651qkFAgLpuyxrtMItuJ82Vtgbj8PsckJ8jGbjdXhi2W41thwiy9NvCRLP4euer2NsBBRZpg9sNnGalRTb7Lu6v74VhdD999QxkW_Xw5ynlwZtOoE9PTCY7_VOwmPNATB-N_ZEE8XGf_73REkTHUSd7x2nwaOHS0H_EZ4kocvpTDH_goYwMtR2anMn1EzxNVk-WE4yjRMFdfJ=w810-h625-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/A__xQRAQcKw0Ge6XXHWRdrp1WacLj6aZDNyfmnsKYKn1ojIyTUX1zD2_tRJTv5XU6K_xUtatTlu7Q7KfXkhtFVMDLlDF1YrjGlPfyVbIUkQyQtC2svOzcD8MwDSJW-AM1YUUUJiaGQARoKOg2aD1B23Yeej_Dnoxcz2jL58UWHa0zZ14rkn3gZvzITKj89FR0s-Sd8ndM-c4QxLyydckCbRPTA2uPfQ_m2WcxnlxGgpOjBOQR_mFvDi5WM4-p_ZQCWcbhRTHo1fE1HA7K5dFiRdfi7FssBkXW29O_RHt06symccNcMLq7096G3mJJNIiblBGeD9yKDvgBYsz-frUNzXhjBSrHFUIKOizxp4MlGTZcn3o50XsPsCUGVusu2qI8Jznnb50zE5PlpgPmMo2JwSqrvUHFQemgB6pI8eaxW0LhY1muXHk2GPP0c8BneYF7yeXUPhh26nSTIVBbiirrfpZyYUZeNtT1xvzDgIouX5FRfwrIxMQi6HA0sURdPWil2S-u8C7iHfRiN-qcxtLjuEbNMhHk3AVZ7b1pJHONj_AUbV1DRwUvy8hDwyn5U2wBvtHnF3nvaup-VevdfvbPCLddl7jmC_5ruOBeYoV8X-LIBRLZHrI-letoYWGl3RSVVpK1OQXgiPFaXqAB-zN0Z8Wo8bqxZy-lNkLZdPAMXL6dIBdv3m2LUt1E81q=w810-h625-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/oCjpKvmorkqVWW6bQEbHvy_Xh_wownfl2f_NQnaP1wh1NI_ZP5tx57zni4f50gxtd8X1CVcKf0ieL2Eghuv8Ea16mjns8bVROYBWJ36LHAolG542BLa2jsLytSENDzUFsjbp-h5oykQEP8eqzbP_M0wyLaDzepOkUQmhQfU2b2D6xNySbRrdUW0yISjY_uzvVCxvoCSJI2QLAWuE_SfxHEoKOL7LPemOSn1m62TmAfq6iGYd8tzsKpoMyfoVDWhzo_88a642Q1MJhfVnuHcTOc01F213S08TBjaJWEyY9Wi2cX0Q6jVrgoSfCShmRPAybN-iJZIYdE7Ke5yhR_V70IwfPJUjlVNksUc7NEW0LxRU0Xrd_BEp4tjC47P3Y_f9Hmu6q6fApdZ4kgc5gnp5ZgVfL0cMWcmMqEvZw2cUOocgFrlyGn9Rb3WwHy8yHPupdhAS8VixQb4sRmujqCoZEl9eHMXjGawc8irkQDMzMK__HE7imR_JgTXDHreLmtujENNARm4yHevPe_iBi9rc8F8vgs-mMBSIOso6u_bPiMLed6Y8kuXq4NkqAlklpPGJ5T62dw92t8qr3aGVIVtQ4B3jcdmHLMLZkQiwCoHeSZbyRr7RHAj0PKICRPPTlSjdHv4smH4n3yCkLV8yFwqRSSaLG0uLlkecZDSMN6CSAYqkFprICm3LKPyWfOA9=w810-h625-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/W994sK3S9QOOqVUQ9dHwZNrUw_VATK6iIV53FByCarx0RGtEX_eFKqaIBjChe-a7xDsQkN1pLPJ1yau4QCRfQhre_O_cfsF7Fulh2cfz7k27PRa0vBiHpYGPbYr_EnfDcQtCarA5JmRlqcIqkJ-xMyEKUc4wQ3qHikX3N4YngYem7Hu8Re4mWLGhBbKHlC-h8znjNJKrr2dYQ3QXfowh88BH79pqwjxeRjfv7e_ypweTYDY3jwhK82JlKZHyWP4e9Pf7z-M4bZCwVzo98jc2yrH4Kkk4vm-vctjZ-URIxX1pFeMdTjLG9GQTNU2AiX_TTM7Fsivpf2C7i60Q1_9vjU2zPWTvNLIOajO0xGFDL4TnsvACVkFGHsYpll0n3TiDUsJPFInWO02knC8HKxU2-vsHWhN2D6qrkCpFzKRRlBvUV0MFAiAXYnTkZlHbQyU69GQlTF8ttMDrp4tM9KGwXu_SQEwp03J0quuQXGq-9Q1UwTfu90D46QbKmGrmXSep7SYAKpTjkdezNzMbljQGrediBOMCmEBnNhAFKoNH6WX2h9xYEXPW3Scu1RQ3T_AQcHtkPtfAZ3oDy7RZKRPqndicuG9uYPC8WQtiENI49uny6_mfB3eF8NS06ZXgRLHjQtjaEGhoQQ20eCMico_eNYCL-2wR7orXfc3D-QmttiPFkMbkz05k3oXH6yV9=w810-h625-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/vl1TCJ0XJ3k0c3dBUgo2RYrwldKlTF1e0a62ekkLOxKydxflUhMphT4gRaqdr2G7PxJziE5oTMPU9YiDyRRMB5XdSOD_TfvxmW4W0Vcfun4XDzdk44WmEkVZwpJ9x5DrOTEcJNBtsF7Z47flsmVm1s39GFKLQKbyMLID3A8gUP42qN-Se59Gn1eUPCMF9ilMxqWI2x710oqJjxScXOh1uGgiYwT1Xrf1Ria4TuG5cUbWT9QlFbDIj5xVXcLut_xrAynozV7KaKcntDHZS6mzkbwVZWgtoEhWabdT1d6Lagnr8RRlEcZxBGGciBVV5dr_RHdcBFsuDpyfnoQVAs7CyeM-NltSLaYlrMWhwl3D4qrxizYpJzhkN0DAkN1Eg9IGDl9lJvXkr6KaIVz3w1vpaLga3yDEXG7JrpU8ZEjd452MMw2HykKBpLnmBhJuw-t1oa168k64NvUYnfsDcYZ_RCdbDtjGhh3LeYZXYNqIDHYBu4ZF-gEinet3bS3KXeyZMN0XeL0ZOvUcECgolyGBzw-L4sa0utM7soy1_XlHbdADJKQNQz47Jga22P8zp8RtOfUgocjkHmDgMMGm4ybku5_J1r0ZwhSdqoowhlof3WzkN7rLttdrAJo7proVg29BXhP5eCq18j6Ny2ZawPVRizGmA9jctKMXIWqHUzE4ZWFHf-ZvoUBf_4lgTEs0=w810-h625-no?authuser=0" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chittoor,Andhra Pradesh</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9043100328</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: hm4007@srmist.edu.in</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+      <p>
+     <a href="https://surveyheart.com/form/5f1474bbbfd3a5222ec1b783">   <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> CLICK HERE
+        </button></a>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+    <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <a href="https://medium.com/@bb817624a343/f5db81fecf91?sk=">
+            <img src="https://lh3.googleusercontent.com/Th69tHuJ90VIKJrtt_602zwgCNxPC34RR6yBfEj74_93H9ZyesGud6pQT29LFgFSA0lZEyX2ySE6-J1adcoAxX1abECLwU2z6CQKgqBanvBdDEwKv63sTgwyPUdkm43QUvnxhUT620qvZL0EYxd3Wk79vHp5Zjw3xrbmXQTS9Bf87QYqXNxLBtB3-ZCgkVOKwvhiZGxTXZ5_jRLH6uuS8JNuCD5av7Jl8j_tNViwRlcio2hIvNIb-z2BViMY9KxGE22aIr2cdsQkPxWzVT9GkUkVcF5OKBAJbMiIo2cibSOvdIEPpnVwN73vLZ-UpybAznQ7H4zQJLeuJKe0tGkiHiVtykGpOS84ooEcBUHEccz37faC6KlfxNBz6cvMzz1gr9bqEDXzJbOMNsCJijnQvS0uC5hfSdCIDNORWL-GVoKIXp1hI_pUsznT7e0ug1cG1-ERrWf6jOkekyp7Uwpz4CP5lbbrGMotYlZ5OOKdUvNPAJpvWUR4tA2QnQVI9-4KGFV_jVIfXse0f7eepRWWxRyEKqf8sCpdYha8QcwQkeg65PA1Zo7xoeEaCowz6lzMiD6WV1hyxxoLna_75XH7TJK1B7grU0yECCEeTe6nLsWCNbMl7CF29EhLAi6_rTbqFUxzReOqtg7_vzB-GOQsLy8LlH_hBif8xQZMhUX7uh0jwElwUCB6C5t2MCKF=w301-h625-no?authuser=0" class="w3-left w3-margin-right" style="width:30px"></a><br>
+            <span class="w3-large">Hruthika_Subramanyam</span><br>
+            <span>My first blog</span>
+          </li>
+        <li class="w3-padding-16 w3-hover-black">
+            <a href="https://www.linkedin.com/posts/hruthika-m-3043171b0_stuffed-with-hard-working-actors-sleek-activity-6682563585715113984-dZKA">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfmoqKRUeX-4PKYaQ05_67rV0YR5r_70dPaw&usqp=CAU" class="w3-left w3-margin-right" style="width:100px"></a><br>
+            <span class="w3-large">The Prestige</span><br>
+            <span>Movie critic</span>
+          </li> 
+
+      <li class="w3-padding-16 w3-hover-black">
+            <a href=" https://link.medium.com/7OYPLU1ah7">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfe6obj-NhNkGEyb_kV36G8wwI2V-RTn8HiQ&usqp=CAU" class="w3-left w3-margin-right" style="width:80px"></a><br>
+             <span class="w3-large">Shin Chan Nohara</span><br>
+            <span>My favourite cartoon</span>
+          </li>
+            
+          </li>
+        </ul>
+      </div>
+
+  
+    <!-- Footer -->
+  
+  <a href="https://instagram.com/ruthika_hd?igshid=1bfqni0er21ua"><img src="https://img.icons8.com/officel/x/instagram-new.png"></a>
+  <a href="https://www.facebook.com/hruthika.m.7"><img src="https://img.icons8.com/doodle/2x/facebook-new.png"></a>
+  <a href=" https://twitter.com/hruthika_m?s=08"><img src="https://img.icons8.com/doodle/2x/twitter.png"></a>
+  <a href="https://www.linkedin.com/in/hruthika-m-3043171b0"><img src="https://img.icons8.com/doodle/2x/linkedin.png"></a>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
