@@ -1,2 +1,2 @@
 # Hruthika.github.io
-My protfolio
+My portfolio
